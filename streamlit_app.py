@@ -1,6 +1,7 @@
 import streamlit as st
+import pandas as pd
 
-st.title("🎈 Pizza ordering app!!")
+st.title("🎈 Esta será nuestra app ? ? ")
 st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
+    "Panditas_2"
 )
