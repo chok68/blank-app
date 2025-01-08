@@ -1,0 +1,288 @@
+Navigation
+
+WINDOWS & LINUX KEYMAP
+Editing
+Ctrl + Space
+
+Basic code completion (the name of any class,
+method or variable)
+Ctrl + Shift + Space
+Smart code completion (filters the list of
+methods and variables by expected type)
+Ctrl + Shift + Enter
+Complete statement
+Ctrl + P
+Parameter info (within method call arguments)
+Ctrl + Q
+Quick documentation lookup
+Shift + F1
+External Doc
+Brief Info
+Ctrl +!
+Ctrl + F1
+Show descriptions of error or warning at caret
+Alt + Insert
+Generate code... (Getters, Setters,
+Constructors, hashCode/equals, toString)
+Ctrl + O
+Override methods
+Ctrl + I
+Implement methods
+Ctrl + Alt + T
+Surround!with…!(if..else,!try..catch, for,
+synchronized, etc.)
+Ctrl + /
+Comment/uncomment with line comment
+Ctrl + Shift + /
+Comment/uncomment with block comment
+Ctrl + W
+Select successively increasing code blocks
+Ctrl + Shift + W
+Decrease current selection to previous state
+Alt + Q
+Context info
+Alt + Enter
+Show intention actions and quick-fixes
+Ctrl + Alt + L
+Reformat code
+Ctrl + Alt + O
+Optimize imports
+Ctrl + Alt + I
+Auto-indent line(s)
+Tab / Shift + Tab
+Indent/unindent selected lines
+Cut current line or selected block to clipboard
+Ctrl!+!X!
+Copy current line or selected block to clipboard
+Ctrl!+!C!
+Paste from clipboard
+Ctrl!+!V!
+Ctrl!+!Shift + V
+Paste from recent buffers...
+Ctrl!+!D
+Duplicate current line or selected block
+Ctrl!+!Y
+Delete line at caret
+Ctrl!+!Shift + J
+Smart line join
+Ctrl!+!Enter
+Smart line split
+Shift + Enter
+Start new line
+Ctrl + Shift + U
+Toggle case for word at caret or selected block
+Ctrl + Shift + ]/[
+Select till code block end/start
+Ctrl + Delete/BackspaceDelete to word end/start
+Ctrl + NumPad+/Expand/collapse code block
+Ctrl + Shift!+!NumPad+ Expand all
+Ctrl + Shift!+!NumPad- Collapse all
+Ctrl + F4
+Close active editor tab
+
+Usage Search
+Alt + F7/Ctrl + F7
+Ctrl + Shift + F7
+Ctrl + Alt + F7
+
+Find usages/Find usages in file
+Highlight usages in file
+Show usages
+
+Ctrl + N
+Ctrl + Shift + N
+Ctrl + Alt + Shift + N
+Alt + Right/Left
+F12
+Esc
+Shift + Esc
+Ctrl!+!Shift!+!F4
+Ctrl!+!G
+Ctrl!+!E
+Ctrl!+!Alt + Left/Right
+Ctrl!+!Shift!+!Backspace
+Alt + F1
+Ctrl + B , Ctrl + Click
+Ctrl + Alt + B
+Ctrl + Shift + I
+Ctrl + Shift + B
+Ctrl + U
+Alt + Up/Down
+Ctrl + ]/[
+Ctrl + F12
+Ctrl + H
+Ctrl + Shift + H
+Ctrl + Alt + H
+F2 / Shift + F2
+F4 / Ctrl + Enter
+Alt + Home
+F11
+Ctrl + F11
+Ctrl + #[0-9]
+Shift + F11
+
+Refactoring
+Go to class
+Go to file
+Go to symbol
+Go to next / previous editor tab
+Go back to previous tool window
+Go to editor (from tool window)
+Hide active or last active window
+Close active run / messages / find / ... tab
+Go to line
+Recent files popup
+Navigate back / forward
+Navigate to last edit location
+Select current file or symbol in any view
+Go to declaration
+Go to implementation(s)
+Open quick definition lookup
+Go to type declaration
+Go to super-method / super-class
+Go to previous / next method
+Move to code block end/start
+File structure popup
+Type hierarchy
+Method hierarchy
+Call hierarchy
+Next/previous highlighted error
+Edit source / View source
+Show navigation bar
+Toggle bookmark
+Toggle bookmark with mnemonic
+Go to numbered bookmark
+Show bookmarks
+
+Search/Replace
+Double Shift
+Ctrl + F
+F3 / Shift + F3
+Ctrl + R
+Ctrl + Shift + F
+Ctrl + Shift + R
+
+Search everywhere
+Find
+Find next / Find previous
+Replace
+Find in path
+Replace in path
+
+Live Templates
+Ctrl + Alt + J
+Ctrl + J
+iter
+inst
+itco
+itit
+itli
+psf
+thr
+
+Surround with Live Template
+Insert Live Template
+Iteration according to Java SDK 1.5 style
+Check!object!type with instanceof and
+downcast it
+Iterate elements of java.util.Collection
+Iterate elements of java.util.Iterator
+Iterate elements of java.util.List
+public static final
+throw new
+
+F5
+F6
+Alt + Delete
+Shift + F6
+Ctrl + F6
+Ctrl + Alt + N
+Ctrl + Alt + M
+Ctrl + Alt + V
+Ctrl + Alt + F
+Ctrl + Alt + C
+Ctrl + Alt + P
+
+Copy
+Move
+Safe Delete
+Rename
+Change Signature
+Inline
+Extract Method
+Extract Variable
+Extract Field
+Extract Constant
+Extract Parameter
+
+Debugging
+F8/F7
+Shift + F7 / Shift + F8
+Alt + F9
+Alt + F8
+F9
+Ctrl + F8
+Ctrl + Shift + F8
+
+Step over/Step into
+Smart step into/Step out
+Run to cursor
+Evaluate expression
+Resume program
+Toggle breakpoint
+View breakpoints
+
+Compile and Run
+Ctrl + F9
+Ctrl + Shift + F9
+Alt + Shift + F10/F9
+Shift + F10/F9
+Ctrl + Shift + F10
+
+Make project (compile modifed and dependent)
+Compile selected file, package or module
+Select configuration and run/and debug
+Run/Debug
+Run context configuration from editor
+
+VCS/Local History
+Ctrl + K / Ctrl + T
+Alt + Shift + C
+Alt + BackQuote (`)
+
+Commit project to VCS/Update from VCS
+View recent changes
+VCS
+
+General
+Alt + #[0-9]
+Ctrl + S
+Ctrl + Alt + Y
+Ctrl + Shift + F12
+Alt + Shift + F
+Alt + Shift + I
+Ctrl + BackQuote (`)
+Ctrl + Alt + S
+Ctrl + Alt + Shift + S
+Ctrl + Shift + A
+Ctrl + Tab
+
+jetbrains.com/idea
+
+Open corresponding tool window
+Save all
+Synchronize
+Toggle maximizing editor
+Add to Favorites
+Inspect current file with current profile
+Quick switch current scheme
+Open Settings dialog
+Open Project Structure dialog
+Find Action
+Switch between tabs and tool window
+
+blog.jetbrains.com/idea
+
+@intellijidea
+
+
