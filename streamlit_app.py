@@ -99,8 +99,9 @@ st.file_uploader('I will help you fill your PDF form', type='pdf', key='uploaded
 
 if 'has_to_load_pdf' in st.session_state and st.session_state['has_to_load_pdf']:
   st.chat_message(ASSISTANT).write(f'''Thanks for uploading your PDF file. Your file was 
-                                  successfully saved.
-                                  We can now proceed with questions...''')
+                                  successfully saved and it is now being analyzed in 
+                                  order to extract which form fields are to be filled.
+                                  ''')
 
   # User has uploaded the pdf file. Let's extract the text that might contain form filling instructions
   pdf_text = extract_text(pdf_filename)
@@ -135,7 +136,7 @@ if 'has_to_load_pdf' in st.session_state and st.session_state['has_to_load_pdf']
     instructions: the extracted instructions from the provided text
     hints: related extracted from text that is far from the main question text
   '''
-  # print(prompt)
+  print(f'prompt:{prompt}')
 
   print('asking ai...')
   complete_response = Complete("mistral-large2", prompt, session=session)

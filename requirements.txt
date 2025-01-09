@@ -1,3 +1,4 @@
 streamlit
 snowflake-ml-python
 snowflake-snowpark-python
+fdfgen==0.16.1
