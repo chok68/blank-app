@@ -83,7 +83,9 @@ def translate_string_to_tuples(input_string):
     return l
 
 
-session = Session.builder.config("connection_name", "default").create()
+session = Session.builder.create()
+print(f'session: {session}')
+# session = Session.builder.config("connection_name", "default").create()
 
 USER = "user"
 ASSISTANT = "assistant"
