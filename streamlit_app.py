@@ -82,9 +82,13 @@ def translate_string_to_tuples(input_string):
 
     return l
 
+conn = st.connection('my_snowflake_connection', type='snowflake')
+print('conn:', conn)
+session = conn.session()
 
-session = Session.builder.config("connection_name", "my_connection").create()
-print(f'session: {session}')
+# session = Session.builder.config("connection_name", "my_connection").create()
+# session = Session.builder.config("connection_name", "myconnection").create()
+# print(f'session: {session}')
 # session = Session.builder.config("connection_name", "default").create()
 
 USER = "user"
@@ -97,7 +101,6 @@ if "current_question_index" not in st.session_state:
   st.session_state["current_question_index"] = 0
 
 st.file_uploader('I will help you fill your PDF form', type='pdf', key='uploaded_pdf', on_change=on_file_uploaded)
-
 
 if 'has_to_load_pdf' in st.session_state and st.session_state['has_to_load_pdf']:
   st.chat_message(ASSISTANT).write(f'''Thanks for uploading your PDF file. Your file was 
