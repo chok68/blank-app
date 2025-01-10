@@ -100,7 +100,9 @@ prompt = None
 if "current_question_index" not in st.session_state:
   st.session_state["current_question_index"] = 0
 
-st.file_uploader('I will help you fill your PDF form', type='pdf', key='uploaded_pdf', on_change=on_file_uploaded)
+st.markdown('# Mistral PDF Form Filler')
+st.markdown('**Let us help you filling your PDF form**')
+st.file_uploader("OK, the first step is to upload the PDF file containing PDF form", type='pdf', key='uploaded_pdf', on_change=on_file_uploaded)
 
 if 'has_to_load_pdf' in st.session_state and st.session_state['has_to_load_pdf']:
   st.chat_message(ASSISTANT).write(f'''Thanks for uploading your PDF file. Your file was 
