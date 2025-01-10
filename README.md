@@ -1,19 +1,8 @@
-# 🎈 Blank app template
+# Mistral PDF Form Filler
 
-A simple Streamlit app template for you to modify!
+## Let us help you filling your PDF form!
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+## TESTING
+This app is for testing Mistral LLM ability to fill PDF Forms.
 
-### How to run it on your own machine
-
-1. Install the requirements
-
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+The app was tested using the sf15 and sf39 forms from [OPM](https://www.opm.gov/forms/standard-forms/)
